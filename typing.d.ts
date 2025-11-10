@@ -20,6 +20,7 @@ type TClients =
   | "TUNIS" /* DISCONTINUED */
   | "DPI"
   | "KONECTA"
+  | "MARS MARKETING"
   | "SATEL"
   | "TERSEA"
   | "CASABLANCA"

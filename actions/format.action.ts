@@ -111,6 +111,13 @@ export async function formatAction(
           mapColumnFn?.[section].mapColumnKONECTA(lead.split(LEAD_SEPARATOR))
         );
 
+      case "MARS MARKETING":
+        return leadsArray.map((lead) =>
+          mapColumnFn?.[section].mapColumnMARSMARKETING(
+            lead.split(LEAD_SEPARATOR)
+          )
+        );
+
       case "SATEL":
         return leadsArray.map((lead) =>
           mapColumnFn?.[section].mapColumnSATEL(lead.split(LEAD_SEPARATOR))

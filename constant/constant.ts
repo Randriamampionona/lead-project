@@ -79,6 +79,10 @@ export const CLIENTS: {
         key: "KONECTA",
       },
       {
+        name: "MARS MARKETING",
+        key: "MARS MARKETING",
+      },
+      {
         name: "SATEL",
         key: "SATEL",
       },
