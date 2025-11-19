@@ -14,13 +14,13 @@ export default function Navbar() {
     <nav className="fixed flex items-center justify-between w-full p-2 z-10 bg-background">
       <Count />
       <div className="flex items-center justify-between md:justify-end space-x-4">
-        <Link
+        {/* <Link
           href="/stock-flow"
           className="flex items-center justify-center space-x-2"
         >
           <Layers2 size="16" />
           <p>Stock Flow</p>
-        </Link>
+        </Link> */}
         {!IS_ON_PROD && <PushUpdateBtn />}
         <SignedIn>
           <UserButton />
