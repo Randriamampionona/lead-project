@@ -7,25 +7,12 @@ export default function Home() {
     <main className="relative min-h-screen flex items-center justify-center flex-col">
       <UpdateIndicatorBanner />
       <div className="relative flex items-center justify-center mb-16">
-        <svg height="40" width="250" xmlns="http://www.w3.org/2000/svg">
-          <text
-            x="5"
-            y="30"
-            fill="white"
-            /*font-size="36"*/ className="text-[36px]"
-          >
-            Go to
-            <tspan fill="none" stroke="white">
-              MERE
-            </tspan>
-          </text>
-        </svg>
+        <h1 className="text-6xl font-bold">Goodbye, M. DINIS</h1>
         <Image
-          src={"/rocket.gif"}
-          alt="rocket"
-          width={55}
-          height={55}
-          className="absolute -right-8 -top-7 rotate-45"
+          src={"/hand-wave.gif"}
+          alt="hand-wave"
+          width={75}
+          height={75}
           unoptimized
         />
       </div>
